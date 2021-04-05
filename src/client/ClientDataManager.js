@@ -78,7 +78,7 @@ class ClientDataManager {
             break;
         }
 
-        if (guild !== undefined) {
+        if (channel !== undefined) {
           guild.channels.set(channel.id, channel);
         }
       }
